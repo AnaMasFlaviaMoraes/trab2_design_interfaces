@@ -32,6 +32,7 @@ body{
 header{
     width: 100%;
     height: 100px;
+    min-width: 680px;
     font-family: 'textos_comuns','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 14pt;
     background-color: #158A82;
@@ -40,7 +41,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 h1{
     font-family: 'titulo','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -71,6 +72,7 @@ ul{
 }
 .login{
     display: flex;
+    justify-content:end;
 }
 
 .login li a {
