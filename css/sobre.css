@@ -1,0 +1,15 @@
+p{
+    width: 600px;
+    text-align: justify;
+
+}
+.sobre{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#retorno{
+    margin-left: 10px;
+    margin-top: 50px;
+}
