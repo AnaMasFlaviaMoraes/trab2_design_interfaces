@@ -30,3 +30,18 @@ input {
     margin-left: 15px;
     margin-top: 350px;
 }
+
+.login_acesso{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "info_pessoal acesso";
+}
+
+.info_pessoal{
+  grid-area: info_pessoal;
+}
+
+.acesso{
+  grid-area: acesso;
+}

@@ -121,38 +121,42 @@ footer{
 }
 .corpo{
     display: grid;
-    grid-gap: 10px;
     grid-template-areas: 
     "sidenav produto_principal"
     "sidenav pacotes"
     "sidenav beneficios";
 }
 .sidenav{
-    width: 250px;
     height: 960px;
+    width: 200px;
     background-color:#158A82;
     border-radius: 10px;
     box-shadow: 0px 5px 20px;
     display: flex;
     grid-area: sidenav;
     grid-row: sidenav;
+    
 }
 
 .produto_principal{
     margin-top: 10px;
     border: 1px solid black;
-    width: 1500px;
+    max-width: 1500px;
+    min-width: 500px;
     height: 300px;
     grid-area: produto_principal;
 } 
 .pacotes{
-    width: 1500px;
+    max-width: 1500px;
+    min-width: 500px;
+    margin-left: 2px;
     height: 300px;
     border: 1px solid black;
     grid-area: pacotes;
 }
 .beneficios{
-    width: 1500px;
+    max-width: 1500px;
+    min-width: 500px;
     height: 300px;
     border: 1px solid black;
     grid-area: beneficios;
