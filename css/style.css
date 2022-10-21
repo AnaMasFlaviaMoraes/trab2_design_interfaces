@@ -121,6 +121,7 @@ footer{
 }
 .corpo{
     display: grid;
+    grid-template-columns: 220px auto;
     grid-template-areas: 
     "sidenav produto_principal"
     "sidenav pacotes"

@@ -5,9 +5,10 @@ label {
 }
 form {
     
-  max-width: 600px;
+  width: 800px;
   min-width: 300px;
   margin: 10px;
+  margin-left: 200px;
   font-size: 14pt;
 }
 label {
@@ -28,12 +29,16 @@ input {
     width: 100px;
 }
 #retorno{
-    margin-left: 15px;
-    margin-top: 130px;
+    margin-left: 200px;
+    margin-top: 150px;
 }
 textarea{
     width: 90%;
     height: 200px;
+}
+
+#sup{
+  margin-left: 200px;
 }
 
 @media (max-width: 800px){
@@ -43,4 +48,11 @@ textarea{
     margin: 10px;
     font-size: 14pt;
   }
+  #sup{
+    margin-left: 10px;
+  }
+  #retorno{
+    margin-left: 10px;
+}
+  
 }

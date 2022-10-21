@@ -4,9 +4,6 @@ label {
   padding: 6px;
 }
 form {
-    
-  max-width: 500px;
-  min-width: 200px;
   margin: 10px;
   font-size: 14pt;
 }
@@ -25,19 +22,56 @@ input {
     height: 500px;
 }
 .botao{
-    width: 100px;
+    width: 200px;
+    margin-top: 130px;
+    margin-left: 400px;
 }
 #retorno{
     margin-left: 15px;
-    margin-top: 350px;
+    margin-top: 100px;
 }
 
-@media (max-width: 800px){
+#acesso{
+  margin-left: 500px;
+  margin-top: -300px;
+  width: 400px;
+}
+#info_pessoal{
+  width: 400px;
+  height: 300px;
+}
+#cad{
+  margin-left: 450px;
+}
+
+@media (max-width: 1000px){
   form {
     
     width: 300px;
     margin: 10px;
     font-size: 14pt;
   }
+  #acesso{
+    margin-left: 10px;
+    margin-top: 130px;
+    width: 400px;
+  }
+  #info_pessoal{
+    margin-left: 10px;
+    width: 400px;
+    height: 300px;
+  }
+  .botao{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #cad{
+    margin-left: 10px;
+  }
+  #retorno{
+    margin-left: 10px;
+    margin-top: 400px;
+}
   
 }
