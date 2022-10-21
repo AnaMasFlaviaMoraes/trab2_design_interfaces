@@ -1,3 +1,5 @@
+## Trabalho 2 -  Disciplina Design de Interfaces -  Ministrada pelo Prof°  Tiago Telecken
+
 ## Desafio Proposto
 O trabalho CSS Responsivo consiste em desenvolver um site responsivo que utiliza somente o CSS sem nenhuma biblioteca ou framework externo (bootstrap, etc). O tema do site é livre (loja, portal, blog, etc) e deve ter as seguintes características:
 * O cabeçalho deve aparecer em todas as páginas e ter itens como: Um logotipo, banner, etc. 
