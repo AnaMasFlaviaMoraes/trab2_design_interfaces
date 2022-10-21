@@ -3,15 +3,6 @@
     height: 150px;
     border-radius: 20px;
 }
-.item{
-   max-width: 215px;
-   min-width: 150;
-   height: 250px;
-   background-color: #158A82;
-   border-radius: 20px;
-   text-align: center;
-   grid-area: "item";
-}
 .corpo{
     margin-top: 20px;
     display: grid;
@@ -19,6 +10,15 @@
     grid-template-areas: 
     "sidenav item item item"
     "sidenav item item item";
+}
+.item{
+   max-width: 215px;
+   min-width: 150px;
+   height: 250px;
+   background-color: #158A82;
+   border-radius: 20px;
+   text-align: center;
+   grid-area: "item";
 }
 .sidenav{
     margin-top: -65px;
@@ -53,7 +53,7 @@
     }
     .item{
         max-width: 300px;
-        min-width: 250;
+        min-width: 250px;
         height: 300px;
     }
     .produto{
