@@ -1,0 +1,64 @@
+.produto{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+.item{
+   max-width: 215px;
+   min-width: 150;
+   height: 250px;
+   background-color: #158A82;
+   border-radius: 20px;
+   text-align: center;
+   grid-area: "item";
+}
+.corpo{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "sidenav item item item"
+    "sidenav item item item";
+}
+.sidenav{
+    margin-top: -65px;
+    height: 600px;
+    max-width: 200px;
+    min-width: 100px;
+    grid-area: "sidenav";
+    grid-row: sidenav;
+}
+#prod{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+@media (max-width: 900px){
+    .corpo{
+        grid-template-areas: 
+        "sidenav item item"
+        "sidenav item item"
+        "sidenav item item";
+    }
+    
+  }
+  @media (max-width: 650px){
+    .corpo{
+        grid-template-areas: 
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item";
+    }
+    .item{
+        max-width: 300px;
+        min-width: 250;
+        height: 300px;
+    }
+    .produto{
+        width: 285px;
+        height: 200px;
+    }
+    
+  }
