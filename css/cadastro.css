@@ -5,7 +5,8 @@ label {
 }
 form {
     
-  width: 500px;
+  max-width: 500px;
+  min-width: 200px;
   margin: 10px;
   font-size: 14pt;
 }
@@ -31,17 +32,12 @@ input {
     margin-top: 350px;
 }
 
-.login_acesso{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  "info_pessoal acesso";
-}
-
-.info_pessoal{
-  grid-area: info_pessoal;
-}
-
-.acesso{
-  grid-area: acesso;
+@media (max-width: 800px){
+  form {
+    
+    width: 300px;
+    margin: 10px;
+    font-size: 14pt;
+  }
+  
 }
